@@ -1,0 +1,50 @@
+:root {
+    /* font */
+    ---Montserrat: 'Montserrat', sans-serif;
+    ---Vollkorn: 'Vollkorn', serif;
+    ---Source: "Source Sans Pro", sans-serif;
+  
+    /* colors */
+    ---navHover: #e3e3e3;
+    ---main: #333333 ---secondary:
+  
+  }
+
+
+.nav-container{
+    position: absolute;
+    z-index: 2;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 1rem 0rem;
+    width: 100%;
+    font-family:var(---Montserrat)
+    
+}
+
+.taku-logo{
+    margin-left: 2%;
+}
+
+.navigation{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    margin-left: 10%;
+}
+
+.navigation li{
+    list-style: none;
+    font-size: 0.813rem;
+}
+
+.navigation li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.navigation li a:hover{
+    color: var(---navHover)
+}

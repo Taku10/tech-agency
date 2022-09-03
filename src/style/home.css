@@ -1,0 +1,63 @@
+:root {
+  /* font */
+  ---Montserrat: 'Montserrat', sans-serif;
+  ---Vollkorn: 'Vollkorn', serif;
+  ---Source: "Source Sans Pro", sans-serif;
+
+  /* colors */
+  ---navHover: #e3e3e3;
+  ---main: #333333 ---secondary:
+
+}
+
+.home-container {
+  height: 95vh;
+
+}
+
+.carousel{
+  position: absolute;
+}
+
+
+
+.carousel-inner>.carousel-item>img {
+  height: 46.8rem;
+  width: 100%;
+  filter: contrast(90%) brightness(60%);
+}
+
+
+
+.carousel-item .field,
+.carousel-item .bulb,
+.carousel-item .people-room {
+  position: absolute;
+  right: 15%;
+  top: 42%;
+ 
+}
+
+.carousel-item .field h2,
+.carousel-item .bulb h2,
+.carousel-item .people-room h2 {
+  font-size: 3.5rem;
+  font-family: var(---Montserrat);
+  font-weight:700;
+
+}
+
+.carousel-item .field p,
+.carousel-item .bulb p,
+.carousel-item .people-room p {
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  height: 50%;
+  margin-top:12%;
+  
+}
