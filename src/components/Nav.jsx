@@ -6,7 +6,7 @@ import '../style/nav.css'
 const Nav = () => {
   return (
     <nav className='nav-container'>
-      <h1 className='taku-logo'>TAKU SOLUTIONS</h1>
+      <h1 className='taku-logo'>TAKU AGENCY</h1>
       <ul className='navigation'>
        <li><a href="">HOME</a></li>
        <li><a href="">ABOUT</a></li>
