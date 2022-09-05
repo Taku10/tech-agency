@@ -25,7 +25,9 @@
 
 .taku-logo{
     margin-left: 2%;
+    font-weight: 700;
 }
+
 
 .navigation{
     display: flex;

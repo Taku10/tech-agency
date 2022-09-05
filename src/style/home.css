@@ -24,7 +24,6 @@
 .carousel-inner>.carousel-item>img {
   height: 46.8rem;
   width: 100%;
-  filter: contrast(90%) brightness(60%);
 }
 
 

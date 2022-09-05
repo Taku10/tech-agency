@@ -17,9 +17,10 @@
 }
 
 .App{
-  min-height:1000rem;
+  min-height:360rem;
   border: 1px solid;
   padding: 1rem 1rem;
+
 }
 
 .header{
