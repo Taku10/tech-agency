@@ -1,5 +1,7 @@
 import '../style/contact.css'
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const Contact = () => {
     const[input, setInput]=useState({
@@ -7,6 +9,10 @@ const Contact = () => {
         email:'',
         message:'',
     })
+
+    useEffect(()=>{
+        Aos.init({duration:1500, once: true})
+    },[])
 
     const handleChange =(event)=>{
         const{name, value}= event.target;
@@ -29,10 +35,10 @@ const Contact = () => {
 
 
   return (
-    <div className='contact-container'>
+    <div className='contact-container' id='contact'>
       <div className='contact-heading'>
-        <h2>Write us a letter</h2>
-        <p>We appreciate your ideas</p>
+        <h2 data-aos='fade-up'>Write us a letter</h2>
+        <p data-aos = 'fade-left' data-aos-delay='800'>We appreciate your ideas</p>
       </div>
       <div className='contact-form'>
         <form onSubmit={handleSumbit}>

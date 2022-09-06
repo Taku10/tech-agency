@@ -1,10 +1,17 @@
 import '../style/footer.css'
-
-import React from 'react'
+import React, {useState, useEffect} from 'react'
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const Footer = () => {
+
+    useEffect(()=>{
+        Aos.init({duration:1500, once: true})
+    },[])
+
+
     return (
-        <div className='footer-container'>
+        <div className='footer-container' data-aos='zoom-in'>
             <div className='footer-logo'>
                 <h1>TAKU AGENCY</h1>
             </div>

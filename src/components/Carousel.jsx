@@ -1,9 +1,9 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import people_room from '../images/people-room.jpg'
-import field from '../images/nature-field.jpg'
-import bulb from '../images/light-bulb.jpg'
+import people_room from '../images/partner.jpg'
+import mountain from '../images/mountain.jpg'
+import bulb from '../images/idea.jpg'
 import '../style/home.css'
 import Carousel from 'react-bootstrap/Carousel'
 import Nav from './Nav';
@@ -17,13 +17,13 @@ const Slide = () => {
             <div className="carousel-inner">
           
                 <div className="carousel-item active" data-bs-interval="5000">
-                    <img src={field} className="d-block w-100" alt="..." />
+                    <img src={mountain} className="d-block w-100" alt="..." />
                     <div className='carousel-caption field'>
                         <h2>We can change your digital world</h2>
                         <p>Bold enough to blow a hole in your next marketing campaign.</p>
                     </div>
                 </div>
-                <div className="carousel-item" data-bs-interval="5000">
+                <div className="carousel-item" data-bs-interval="">
                     <img src={bulb} className="d-block w-100" alt="..." />
                     <div className=' carousel-caption bulb'>
                         <h2>Ideas without action are useless.</h2>

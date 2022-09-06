@@ -1,6 +1,6 @@
 import React from 'react'
 import '../style/nav.css'
-
+import {Link} from 'react-scroll'
 
 
 const Nav = () => {
@@ -8,11 +8,11 @@ const Nav = () => {
     <nav className='nav-container'>
       <h1 className='taku-logo'>TAKU AGENCY</h1>
       <ul className='navigation'>
-       <li><a href="">HOME</a></li>
-       <li><a href="">ABOUT</a></li>
-       <li><a href="">SERVICES</a></li>
-       <li><a href="">PORTFOLIO</a></li>
-       <li><a href="">CONTACT</a></li>
+       <li><Link  to="home" spy={true} smooth={true} offset={50} duration={500}>HOME</Link></li>
+       <li><Link  to="about" spy={true} smooth={true} offset={-10} duration={500}>ABOUT</Link></li>
+       <li><Link  to="services" spy={true} smooth={true} offset={-10} duration={500}>SERVICES</Link></li>
+       <li><Link  to="portfolio" spy={true} smooth={true} offset={-10} duration={500}>PORTFOLIO</Link></li>
+       <li><Link  to="contact" spy={true} smooth={true} offset={-10} duration={500}>CONTACT</Link></li>
       </ul>
     </nav>
   )

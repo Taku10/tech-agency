@@ -1,14 +1,22 @@
 import '../style/clients.css'
 
-import React from 'react'
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import React, {useEffect} from 'react'
 
 const Clients = () => {
+
+    
+    useEffect(()=>{
+        Aos.init({duration:1500, once: true})
+    },[])
+
     return (
         <div className='client-container'>
             <div className='client-wrapper'>
                 <div className='client-header'>
-                    <h2>Our clients love our work</h2>
-                    <p>But don't just take our word for it...</p>
+                    <h2 data-aos='fade-up'>Our clients love our work</h2>
+                    <p data-aos = 'fade-left' data-aos-delay='800'>But don't just take our word for it...</p>
                 </div>
                 <div id="carouselExampleInterval" class="carousel slide carousel-fade" data-bs-ride="carousel">
                     <div class="carousel-inner">

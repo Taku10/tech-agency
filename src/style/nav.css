@@ -44,7 +44,7 @@
 .navigation li a{
     text-decoration: none;
     color: white;
-    
+    cursor: pointer;
 }
 
 .navigation li a:hover{
