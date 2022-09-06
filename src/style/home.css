@@ -8,6 +8,10 @@
   ---navHover: #e3e3e3;
   ---main: #333333 ---secondary:
 
+  ---sm: 576px;
+  ---md: 768px;
+  ---lg: 992px;
+  ---xl: 1200px;
 }
 
 .home-container {
@@ -59,4 +63,12 @@
   height: 50%;
   margin-top:12%;
   
+}
+
+@media (min-width: 1601px ){
+  .carousel-inner>.carousel-item>img {
+    height: 58.5rem;
+    width: 100%;
+
+  }
 }
