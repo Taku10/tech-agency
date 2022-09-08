@@ -77,3 +77,37 @@
 
 
 
+@media (max-width:768px) {
+    .footer-container{
+        width: 100%;
+        height: 40rem;
+        padding: 3% 4%;
+        background-color:var(---footer_bg) ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:2rem;
+    }
+
+    .details{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap:2rem;
+    }
+
+    .footer-item{
+        gap:.5rem;
+    }
+
+    .details li{
+        list-style: none;
+        font-size: 13px;
+        font-family: var(---Source);
+        
+    }
+
+    .footer-heading{
+        font-size: 13px;
+    }
+}
