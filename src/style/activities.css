@@ -41,3 +41,13 @@
     color: var(---main);
     font-family: var(---Vollkorn);
 }
+
+@media (max-width:768px) {
+    .activities-wrapper{
+        width: 80%;
+    }
+
+    .activities-wrapper h2{
+        font-size: 2rem;
+    }
+}

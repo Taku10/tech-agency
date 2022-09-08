@@ -39,7 +39,7 @@ const Services = () => {
                     </div>
                 </div>
                 <div className='web' data-aos='fade-up' data-aos-delay='500'  >
-                    <i class="fa-solid fa-window-maximize"></i>
+                    <i className="fa-solid fa-window-maximize"></i>
                     <div className='web-content'>
                         <h2>Web Design</h2>
                         <p>

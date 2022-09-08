@@ -50,3 +50,11 @@
 .navigation li a:hover{
     color: var(---navHover)
 }
+
+@media (max-width: 992px) {
+   .navigation{
+    width: 50%;
+   } 
+}
+
+

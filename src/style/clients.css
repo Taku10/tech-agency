@@ -15,7 +15,6 @@
     width: 100%;
     height: 25rem;
     display: flex;
-    margin-top: 4rem;
 }
 
 .client-wrapper{
@@ -75,4 +74,29 @@
 .carousel-item{
     transition: 4s ease;
     
+}
+
+@media (max-width:768px) {
+    
+    .client-container{
+        border: 1px solid;
+
+    }
+
+    .client-wrapper{
+        border: 1px solid;
+        padding-top:0rem
+    }
+
+    .client-header h2{
+        font-size: 2rem;
+    }
+
+    .client-header p{
+        font-size: 15px;
+    }
+
+    .client-caption, .client-name{
+        font-size:17px;
+    }
 }

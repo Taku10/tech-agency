@@ -4,11 +4,17 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import people_room from '../images/partner.jpg'
 import mountain from '../images/mountain.jpg'
 import bulb from '../images/idea.jpg'
+import people_room_small from '../images/people-room-small.jpg'
 import '../style/home.css'
 import Carousel from 'react-bootstrap/Carousel'
 import Nav from './Nav';
 
 const Slide = () => {
+
+    const window = innerWidth;
+    const small = 880
+    console.log(window)
+
     return (
         <>
         
