@@ -94,14 +94,16 @@
     font-family: var(---Montserrat);
     font-weight: 400;
     font-size: 0.75rem;
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
     width: 12rem;
+
 }
 
 .services-container button:hover {
     color: white;
     background-color: var(---secondary);
-    border: none;
+   border-color: var(---secondary);
+    
 }
 
 
@@ -225,11 +227,12 @@
     .services-grid-2 p{
         font-size: 13px;
     }
+}
 
-    
-   
+@media (max-width:505px) {
 
-
-
-
+    .things-wrapper{
+        padding: 3rem 0rem;
+        gap:.1rem;
+    }
 }

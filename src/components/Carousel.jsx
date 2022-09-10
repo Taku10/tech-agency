@@ -7,7 +7,7 @@ import bulb from '../images/idea.jpg'
 import people_room_small from '../images/people-room-small.jpg'
 import '../style/home.css'
 import Carousel from 'react-bootstrap/Carousel'
-import Nav from './Nav';
+import Navbar from './Navbar';
 
 const Slide = () => {
 
@@ -19,7 +19,7 @@ const Slide = () => {
         <>
         
         <div id="carouselExampleInterval" className="carousel slide carousel-fade" data-bs-ride="carousel">
-        <Nav/>
+        <Navbar/>
             <div className="carousel-inner">
           
                 <div className="carousel-item active" data-bs-interval="5000">

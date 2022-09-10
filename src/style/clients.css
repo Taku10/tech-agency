@@ -80,12 +80,11 @@
 @media (max-width:768px) {
     
     .client-container{
-        border: 1px solid;
-        margin-top:8rem;
+        margin-top:2rem;
     }
 
     .client-wrapper{
-        border: 1px solid;
+        
         padding-top:0rem
     }
 
@@ -99,5 +98,11 @@
 
     .client-caption, .client-name{
         font-size:17px;
+    }
+}
+
+@media (max-width:505px) {
+    .client-container{
+        margin-top:4rem;
     }
 }

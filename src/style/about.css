@@ -115,14 +115,14 @@
 .about-container button:hover {
     color: white;
     background-color: var(---secondary);
-    border: none;
+    border-color: var(---secondary);
 }
 
 @media (max-width: 768px) {
 
     .about-container {
         height: 80rem;
-        border: 1px solid
+
     }
 
 
@@ -179,5 +179,13 @@
     .creative-wrapper,
     .hip-wrapper {
         gap:0.5rem;
+    }
+}
+
+@media (max-width:505px) {
+
+    .creative-wrapper, .hip-wrapper{
+        padding: 3rem 0rem;
+        gap:.1rem;
     }
 }
