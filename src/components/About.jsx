@@ -2,6 +2,7 @@ import '../style/about.css'
 import React, {useEffect} from 'react'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import { Link } from 'react-scroll'
 
 
 
@@ -26,7 +27,8 @@ const About = () => {
                         <p className='creative-description'>
                             Focus infographic venture business model canvas gamification ecosystem. Business plan gamification user experience low hanging fruit twitter. Metrics research & development market paradigm shift growth hacking disruptive user experience iPad social media angel investor alpha. Social proof lean startup alpha scrum project non-disclosure agreement.
                         </p>
-                        <button>VIEW PORTFOLIO</button>
+                        <Link to= 'portfolio' spy={true} smooth={true} offset={-10} duration={500}><button>VIEW PORTFOLIO</button></Link>
+                        
                     </div>
                 </div>
             </div>
@@ -40,7 +42,7 @@ const About = () => {
                         <p className='hip-description'>
                             Focus infographic venture business model canvas gamification ecosystem. Business plan gamification user experience low hanging fruit twitter. Metrics research & development market paradigm shift growth hacking disruptive user experience iPad social media angel investor alpha. Social proof lean startup alpha scrum project non-disclosure agreement.
                         </p>
-                        <button>OUR SERVICES</button>
+                        <Link to= 'services' spy={true} smooth={true} offset={-10} duration={500}><button>OUR SERVICES</button></Link>
                     </div>
                 </div>
                 <div className='hip-image'>

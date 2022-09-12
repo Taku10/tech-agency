@@ -6,27 +6,13 @@ import MobileNavigation from './MobileNavigation'
 
 
 const Nav = () => {
-  const [width, setWidth] = useState(window.innerWidth)
-
-
-  useEffect(() => {
-    window.addEventListener('resize', updateWidth);
-
-    return () => {
-      window.removeEventListener('resize', updateWidth)
-    }
-  })
-
-  const updateWidth = () => {
-    setWidth(window.innerWidth)
-  }
-
+ 
 
 
   return (
     <div className='nav-container'>
-      <Navigation className='desktop-view' />
-      <MobileNavigation className='mobile-view' />
+      <Navigation />
+      <MobileNavigation />
     </div>
   )
 }

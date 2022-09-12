@@ -1,5 +1,7 @@
 import React from 'react'
 import NavLinks from './NavLinks'
+import '../style/nav.css'
+
 
 const Navigation = () => {
   return (
