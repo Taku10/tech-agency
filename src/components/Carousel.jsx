@@ -11,9 +11,7 @@ import Navbar from './Navbar';
 
 const Slide = () => {
 
-    const window = innerWidth;
-    const small = 880
-    console.log(window)
+    
 
     return (
         <>
