@@ -10,7 +10,7 @@ import 'aos/dist/aos.css';
 const NavLinks = ({isMobile, linkClose}) => {
     const [close, setClose] = useState(true)
     const displayX = useContext(CloseContext)
-    const x_icon = <AiOutlineClose size='36px' color='black' data-aos='fade-down' className='close' onClick={() => setClose(!close)} />
+    const x_icon = <AiOutlineClose size='36px' color='black' data-aos='zoom-in' className='close' onClick={() => setClose(!close)} />
    
 
     useEffect(() => {
