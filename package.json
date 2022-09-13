@@ -2,7 +2,7 @@
   "name": "tech-agency",
   "version": "0.1.0",
   "private": true,
-  "engine": {
+  "engines": {
     "node": "18.2.0."
   },
   "dependencies": {
