@@ -29,7 +29,7 @@ const Contact = () => {
     const handleSumbit =(event)=>{
         event.preventDefault();
         console.log(message)
-        setInput('')
+        setInput(' ')
     }
 
 
