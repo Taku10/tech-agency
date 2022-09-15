@@ -101,8 +101,8 @@
     }
 }
 
-@media (max-width:505px) {
+@media (max-width:500px) {
     .client-container{
-        margin-top:4rem;
+        margin-top:8rem;
     }
 }

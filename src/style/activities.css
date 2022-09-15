@@ -27,14 +27,14 @@
     place-items: center;
 }
 
-.activities-wrapper h2{
-    font-size:2.63rem;
+.activities-wrapper h2 {
+    font-size: 2.63rem;
     font-family: var(---Montserrat);
     font-weight: 700;
     color: var(---main);
 }
 
-.activities-wrapper p{
+.activities-wrapper p {
     font-size: 1rem;
     font-style: italic;
     font-weight: 400;
@@ -43,11 +43,22 @@
 }
 
 @media (max-width:768px) {
-    .activities-wrapper{
+    .activities-wrapper {
         width: 80%;
     }
 
-    .activities-wrapper h2{
+    .activities-wrapper h2 {
         font-size: 2rem;
+    }
+}
+
+@media (max-width:500px) {
+
+    .activities-wrapper {
+        width: 100%;
+    }
+
+    .activities-wrapper h2 {
+        font-size: 1.6rem;
     }
 }
